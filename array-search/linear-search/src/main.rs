@@ -6,7 +6,6 @@ fn input_vector(number_of_elements: i32) -> Vec<i32> {
 
 	for i in 1..number_of_elements+1 {
 		print!("Enter the value of element {:?}: ", i );
-		//io::stdout().flush()?;
 		if let Err(error) = io::stdout().flush() {
 			panic!("{}", error);
 		}
