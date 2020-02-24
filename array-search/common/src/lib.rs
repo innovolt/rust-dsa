@@ -1,14 +1,6 @@
 use std::io;
 use std::io::Write;
 
-#[cfg(test)]
-mod tests {
-    #[test]
-    fn it_works() {
-        assert_eq!(2 + 2, 4);
-    }
-}
-
 // It constructs a vector of size number_of_elements
 pub fn input_vector(number_of_elements: i32) -> Vec<i32> {
 	let mut arr: Vec<i32> = Vec::new();
