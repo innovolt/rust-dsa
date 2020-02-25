@@ -18,7 +18,7 @@ fn bin_search(vec: & Vec<i32>, element_to_be_searched: i32, low: usize, high: us
 }
 
 fn search(vec: & Vec<i32>, element_to_be_searched: i32) -> bool {
-	return bin_search(vec, element_to_be_searched, 0 as usize, (vec.len()-1));
+	return bin_search(vec, element_to_be_searched, 0 as usize, vec.len()-1);
 }
 
 fn main() {

@@ -4,10 +4,13 @@
 name = "binary-search"
 version = "0.1.0"
 dependencies = [
- "common 0.1.0",
+ "common 0.1.0 (git+https://github.com/innovolt/rust-common.git)",
 ]
 
 [[package]]
 name = "common"
 version = "0.1.0"
+source = "git+https://github.com/innovolt/rust-common.git#167519054ac36ea4391556d5036138fa5aaf8bd8"
 
+[metadata]
+"checksum common 0.1.0 (git+https://github.com/innovolt/rust-common.git)" = "<none>"
